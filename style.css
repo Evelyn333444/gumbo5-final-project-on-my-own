@@ -172,6 +172,48 @@ FEATURES ↓
     align-items: center;
 }
 
+#features .section__title, #pricing .section__title {
+        font-size: 48px;
+}
+
+#features .section__title, #pricing .section__title {
+    text-align: center;
+}
+
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
 
 /* 
 
