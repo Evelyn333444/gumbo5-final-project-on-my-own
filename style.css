@@ -900,7 +900,7 @@ PRICING ↓
     position: relative;
     margin-top: 4rem;
     display: flex;
-    width: calc(90%/3);
+    width: calc(100%/3);
     max-width: 24rem;
     flex-direction: column;
     border-radius: 0.5rem;
@@ -1599,6 +1599,9 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__img {
         width: 40%;
     }
+    .plan__button {
+        max-width: none;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1636,7 +1639,6 @@ MOBILE RESPONSIVENESS ↓
     #features .section__title, #pricing .section__title {
         font-size: 48px;
     }
-}
     .section__title {
         font-size: 36px;
     }
@@ -1667,10 +1669,33 @@ MOBILE RESPONSIVENESS ↓
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+    .plan {
+        width: 100%
+        margin-right: 0;
+    }
     #start .container {
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+    .plan {
+        margin-right: 0px;
+    }
+    .start__title {
+        text-align: center;
+        width: 100%;
+        max-width: 512px;
+    }
+    .start__buttons {
+        width: auto;
+        margin-top: 24px;
+    }
+    .start__button {
+        padding: 16px 32px;
+    }
+}
+    
+
+
 
 @media(max-width: 768px) {
     #quality .row,
@@ -1737,6 +1762,13 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__description {
         padding-left: 0;
     }
+    .start__row, .start__buttons {
+        flex-direction: column;
+    }
+    .start__button:nth-child(1) {
+        margin-right: 0;
+        margin: 24px 0;
+    }
     .footer__columns {
         justify-content: flex-start;
     }
@@ -1786,6 +1818,9 @@ MOBILE RESPONSIVENESS ↓
         font-size: 14px;
         text-align: center;
         line-height: 1.5;
+    }
+    .plan__price {
+        font-size: 36px;
     }
     
 }
